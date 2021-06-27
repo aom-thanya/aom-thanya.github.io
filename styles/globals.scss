@@ -29,6 +29,12 @@ a {
   align-items: center;
   height: 100vh;
   flex-direction: column;
+
+  .sub-title {
+    font-weight: normal;
+    color: #555555;
+    text-align: center;
+  }
 }
 
 .icon-list {

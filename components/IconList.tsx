@@ -1,17 +1,20 @@
 import React from 'react'
 import EmailIcon from '../icons/Email'
+import GithubIcon from '../icons/Github'
+import LinkedinIcon from '../icons/Linkedin'
+import MediumIcon from '../icons/Medium'
 import IconButton from './IconButton'
 
 const IconList = () => {
   return (
     <div className="icon-list">
       <IconButton
-        icon={<EmailIcon />}
+        icon={<GithubIcon />}
         onClick={() => window.open('https://github.com/aom-thanya')}
         ariaLabel="github"
       />
       <IconButton
-        icon={<EmailIcon />}
+        icon={<LinkedinIcon />}
         onClick={() => window.open('https://www.linkedin.com/in/thanya-khampoosa-696833196/')}
         ariaLabel="linkedin"
       />
@@ -21,7 +24,7 @@ const IconList = () => {
         ariaLabel="email"
       />
       <IconButton
-        icon={<EmailIcon />}
+        icon={<MediumIcon />}
         onClick={() => window.open('https://aom-thanya.medium.com/')}
         ariaLabel="medium"
       />
