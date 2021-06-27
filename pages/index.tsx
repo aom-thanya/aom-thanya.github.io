@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <Avatar src="https://github.com/aom-thanya.png" alt="An image of Aom Thanya" />
-      <h1>Aom Thanya</h1>
+      <h1 className="title">Aom Thanya</h1>
       <h4 className="sub-title">
         ชื่อออมชอบกิน
         <br />

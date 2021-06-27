@@ -21,6 +21,11 @@ a {
 
 .icon-button {
   cursor: pointer;
+  transition: color 0.2s;
+
+  &:hover {
+    color: darkslategray;
+  }
 }
 
 .home-page {
@@ -29,6 +34,10 @@ a {
   align-items: center;
   height: 100vh;
   flex-direction: column;
+
+  .title {
+    margin-bottom: 0;
+  }
 
   .sub-title {
     font-weight: normal;
