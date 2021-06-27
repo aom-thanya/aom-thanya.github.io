@@ -1,9 +1,4 @@
 import React, { ReactNode } from 'react'
-import styled from 'styled-components'
-
-const IconStyled = styled.div`
-  cursor: pointer;
-`
 
 interface Props {
   icon: ReactNode
@@ -12,7 +7,11 @@ interface Props {
 }
 
 const IconButton = ({ icon, onClick }: Props) => {
-  return <IconStyled onClick={onClick}>{icon}</IconStyled>
+  return (
+    <div onClick={onClick} className="icon-button">
+      {icon}
+    </div>
+  )
 }
 
 export default IconButton

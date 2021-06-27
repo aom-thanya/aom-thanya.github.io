@@ -1,10 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
 import Image from 'next/image'
-
-const StyledImage = styled(Image)`
-  border-radius: 50%;
-`
 
 interface Props {
   src: string
@@ -12,7 +7,7 @@ interface Props {
 }
 
 const Avatar = ({ alt, src }: Props) => {
-  return <StyledImage width="100px" height="100px" src={src} alt={alt} />
+  return <Image width="100px" height="100px" src={src} alt={alt} className="avatar" />
 }
 
 export default Avatar

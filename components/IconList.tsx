@@ -1,17 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
 import EmailIcon from '../icons/Email'
 import IconButton from './IconButton'
 
-const IconWrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 16px;
-`
-
 const IconList = () => {
   return (
-    <IconWrapper>
+    <div className="icon-list">
       <IconButton
         icon={<EmailIcon />}
         onClick={() => window.open('https://github.com/aom-thanya')}
@@ -32,7 +25,7 @@ const IconList = () => {
         onClick={() => window.open('https://aom-thanya.medium.com/')}
         ariaLabel="medium"
       />
-    </IconWrapper>
+    </div>
   )
 }
 
