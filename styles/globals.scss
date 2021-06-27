@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f6f6f6;
 }
 
 a {
@@ -22,9 +23,10 @@ a {
 .icon-button {
   cursor: pointer;
   transition: color 0.2s;
+  color: #002855;
 
   &:hover {
-    color: darkslategray;
+    color: #0353a4;
   }
 }
 
@@ -37,11 +39,12 @@ a {
 
   .title {
     margin-bottom: 0;
+    color: #001233;
   }
 
   .sub-title {
     font-weight: normal;
-    color: #555555;
+    color: #7d8597;
     text-align: center;
   }
 }

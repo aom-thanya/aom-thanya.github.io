@@ -7,7 +7,7 @@ const LinkedinIcon = (props: React.SVGProps<SVGSVGElement>) => {
       height={32}
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
-      viewBox="0 0 59 59"
+      viewBox="0 0 57 57"
       {...props}
     >
       <title>{'Layer 1'}</title>

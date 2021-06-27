@@ -4,7 +4,7 @@ const EmailIcon = (props: React.SVGProps<SVGSVGElement>) => {
   return (
     <svg
       height={32}
-      viewBox="0 0 500 500"
+      viewBox="0 0 501 501"
       width={32}
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
